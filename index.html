@@ -9,8 +9,14 @@
     <link rel="stylesheet" href="./public/css/javascriptClock.css">
     <link rel="stylesheet" href="./public/css/layeredImageHover.css">
     <link rel="stylesheet" href="./public/css/glassmorphismCardHover.css">
+    <link rel="stylesheet" href="./public/css/pageScrollsProgressBar.css">
+    <link rel="stylesheet" href="./public/css/cardUIdesign.css">
 </head>
 <body>
+    <!-- creative page scroll progress bar -->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
     <!-- charging effect -->
     <div id="glowingContainer">
         <div class="loader">
@@ -53,6 +59,35 @@
         </div>
     </div>
     
+    <!-- card UI Design with hover effects -->
+    <div class="greatBoxCards">
+        <div class="box">
+            <div class="imgBx3" id="imgI">
+                <img src="./public/img/cactus.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>cactus <span>Web developer</span></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx3" id="imgII">
+                <img src="./public/img/bibi.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h2>bibi <span>Black Mage</span></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx3" id="imgIII">
+                <img src="./public/img/tidus.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h2>tidus <span>Blitzball Player</span></h2>
+            </div>
+        </div>
+    </div>
+
     <script src="./public/js/javascriptClock.js"></script>
+    <script src="./public/js/pageScrollsProgressBar.js"></script>
 </body>
 </html>
